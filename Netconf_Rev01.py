@@ -12,7 +12,7 @@ m = manager.connect(
 #test Rev04
 #test Rev05
 #test Rev05_Branches
-
+#test Rev06_Branches
 netconf_reply = m.get_config(source="running")
 print(netconf_reply)
 
